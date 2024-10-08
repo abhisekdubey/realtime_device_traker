@@ -1,0 +1,33 @@
+{
+  "name": "realtime_device_traker",
+  "version": "1.0.0",
+  "description": "Realtime traker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisekdubey/realtime_device_traker.git"
+  },
+  "keywords": [
+    "Realtime",
+    "node",
+    "socketio"
+  ],
+  "author": "Abhisek Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhisekdubey/realtime_device_traker/issues"
+  },
+  "homepage": "https://github.com/abhisekdubey/realtime_device_traker#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
